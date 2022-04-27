@@ -1,0 +1,4 @@
+C:/Users/Particular/Downloads/minicalc-estagio1/build/CMakeFiles/minicalc.dir
+C:/Users/Particular/Downloads/minicalc-estagio1/build/CMakeFiles/lexertest.dir
+C:/Users/Particular/Downloads/minicalc-estagio1/build/CMakeFiles/edit_cache.dir
+C:/Users/Particular/Downloads/minicalc-estagio1/build/CMakeFiles/rebuild_cache.dir
