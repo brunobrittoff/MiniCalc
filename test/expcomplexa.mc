@@ -1,12 +1,12 @@
-print (250 - [80 / 2])
+print (289 + (42 * 3))
 
 
 Arvore sintatica resultante da analise desta expressao:
 
-    -
+    +
    / \
   /   \
-250    /
+289    *
       / \
      /   \
-    80    2
+    42    3
