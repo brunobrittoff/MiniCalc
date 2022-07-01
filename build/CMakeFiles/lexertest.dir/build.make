@@ -52,10 +52,10 @@ RM = C:\Users\Particular\Downloads\cmake-3.21.3-windows-x86_64\bin\cmake.exe -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Particular\Downloads\minicalc-estagio1
+CMAKE_SOURCE_DIR = C:\Users\Particular\Desktop\MiniCalc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Particular\Downloads\minicalc-estagio1\build
+CMAKE_BINARY_DIR = C:\Users\Particular\Desktop\MiniCalc\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lexertest.dir/depend.make
@@ -71,44 +71,44 @@ include CMakeFiles/lexertest.dir/flags.make
 CMakeFiles/lexertest.dir/lexertest.c.obj: CMakeFiles/lexertest.dir/flags.make
 CMakeFiles/lexertest.dir/lexertest.c.obj: ../lexertest.c
 CMakeFiles/lexertest.dir/lexertest.c.obj: CMakeFiles/lexertest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Particular\Downloads\minicalc-estagio1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lexertest.dir/lexertest.c.obj"
-	C:\MinGW\bin\mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lexertest.dir/lexertest.c.obj -MF CMakeFiles\lexertest.dir\lexertest.c.obj.d -o CMakeFiles\lexertest.dir\lexertest.c.obj -c C:\Users\Particular\Downloads\minicalc-estagio1\lexertest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Particular\Desktop\MiniCalc\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lexertest.dir/lexertest.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lexertest.dir/lexertest.c.obj -MF CMakeFiles\lexertest.dir\lexertest.c.obj.d -o CMakeFiles\lexertest.dir\lexertest.c.obj -c C:\Users\Particular\Desktop\MiniCalc\lexertest.c
 
 CMakeFiles/lexertest.dir/lexertest.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lexertest.dir/lexertest.c.i"
-	C:\MinGW\bin\mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Particular\Downloads\minicalc-estagio1\lexertest.c > CMakeFiles\lexertest.dir\lexertest.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Particular\Desktop\MiniCalc\lexertest.c > CMakeFiles\lexertest.dir\lexertest.c.i
 
 CMakeFiles/lexertest.dir/lexertest.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lexertest.dir/lexertest.c.s"
-	C:\MinGW\bin\mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Particular\Downloads\minicalc-estagio1\lexertest.c -o CMakeFiles\lexertest.dir\lexertest.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Particular\Desktop\MiniCalc\lexertest.c -o CMakeFiles\lexertest.dir\lexertest.c.s
 
 CMakeFiles/lexertest.dir/arq.c.obj: CMakeFiles/lexertest.dir/flags.make
 CMakeFiles/lexertest.dir/arq.c.obj: ../arq.c
 CMakeFiles/lexertest.dir/arq.c.obj: CMakeFiles/lexertest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Particular\Downloads\minicalc-estagio1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lexertest.dir/arq.c.obj"
-	C:\MinGW\bin\mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lexertest.dir/arq.c.obj -MF CMakeFiles\lexertest.dir\arq.c.obj.d -o CMakeFiles\lexertest.dir\arq.c.obj -c C:\Users\Particular\Downloads\minicalc-estagio1\arq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Particular\Desktop\MiniCalc\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lexertest.dir/arq.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lexertest.dir/arq.c.obj -MF CMakeFiles\lexertest.dir\arq.c.obj.d -o CMakeFiles\lexertest.dir\arq.c.obj -c C:\Users\Particular\Desktop\MiniCalc\arq.c
 
 CMakeFiles/lexertest.dir/arq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lexertest.dir/arq.c.i"
-	C:\MinGW\bin\mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Particular\Downloads\minicalc-estagio1\arq.c > CMakeFiles\lexertest.dir\arq.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Particular\Desktop\MiniCalc\arq.c > CMakeFiles\lexertest.dir\arq.c.i
 
 CMakeFiles/lexertest.dir/arq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lexertest.dir/arq.c.s"
-	C:\MinGW\bin\mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Particular\Downloads\minicalc-estagio1\arq.c -o CMakeFiles\lexertest.dir\arq.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Particular\Desktop\MiniCalc\arq.c -o CMakeFiles\lexertest.dir\arq.c.s
 
 CMakeFiles/lexertest.dir/lexer.c.obj: CMakeFiles/lexertest.dir/flags.make
 CMakeFiles/lexertest.dir/lexer.c.obj: ../lexer.c
 CMakeFiles/lexertest.dir/lexer.c.obj: CMakeFiles/lexertest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Particular\Downloads\minicalc-estagio1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lexertest.dir/lexer.c.obj"
-	C:\MinGW\bin\mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lexertest.dir/lexer.c.obj -MF CMakeFiles\lexertest.dir\lexer.c.obj.d -o CMakeFiles\lexertest.dir\lexer.c.obj -c C:\Users\Particular\Downloads\minicalc-estagio1\lexer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Particular\Desktop\MiniCalc\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lexertest.dir/lexer.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lexertest.dir/lexer.c.obj -MF CMakeFiles\lexertest.dir\lexer.c.obj.d -o CMakeFiles\lexertest.dir\lexer.c.obj -c C:\Users\Particular\Desktop\MiniCalc\lexer.c
 
 CMakeFiles/lexertest.dir/lexer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lexertest.dir/lexer.c.i"
-	C:\MinGW\bin\mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Particular\Downloads\minicalc-estagio1\lexer.c > CMakeFiles\lexertest.dir\lexer.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Particular\Desktop\MiniCalc\lexer.c > CMakeFiles\lexertest.dir\lexer.c.i
 
 CMakeFiles/lexertest.dir/lexer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lexertest.dir/lexer.c.s"
-	C:\MinGW\bin\mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Particular\Downloads\minicalc-estagio1\lexer.c -o CMakeFiles\lexertest.dir\lexer.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Particular\Desktop\MiniCalc\lexer.c -o CMakeFiles\lexertest.dir\lexer.c.s
 
 # Object files for target lexertest
 lexertest_OBJECTS = \
@@ -126,7 +126,7 @@ lexertest.exe: CMakeFiles/lexertest.dir/build.make
 lexertest.exe: CMakeFiles/lexertest.dir/linklibs.rsp
 lexertest.exe: CMakeFiles/lexertest.dir/objects1.rsp
 lexertest.exe: CMakeFiles/lexertest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Particular\Downloads\minicalc-estagio1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable lexertest.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Particular\Desktop\MiniCalc\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable lexertest.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\lexertest.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/lexertest.dir/clean:
 .PHONY : CMakeFiles/lexertest.dir/clean
 
 CMakeFiles/lexertest.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Particular\Downloads\minicalc-estagio1 C:\Users\Particular\Downloads\minicalc-estagio1 C:\Users\Particular\Downloads\minicalc-estagio1\build C:\Users\Particular\Downloads\minicalc-estagio1\build C:\Users\Particular\Downloads\minicalc-estagio1\build\CMakeFiles\lexertest.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Particular\Desktop\MiniCalc C:\Users\Particular\Desktop\MiniCalc C:\Users\Particular\Desktop\MiniCalc\build C:\Users\Particular\Desktop\MiniCalc\build C:\Users\Particular\Desktop\MiniCalc\build\CMakeFiles\lexertest.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lexertest.dir/depend
 

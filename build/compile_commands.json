@@ -1,37 +1,42 @@
 [
 {
-  "directory": "C:/Users/Particular/Downloads/minicalc-estagio1/build",
-  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe   -g -std=gnu11 -o CMakeFiles\\minicalc.dir\\main.c.obj -c C:\\Users\\Particular\\Downloads\\minicalc-estagio1\\main.c",
-  "file": "C:/Users/Particular/Downloads/minicalc-estagio1/main.c"
+  "directory": "C:/Users/Particular/Desktop/MiniCalc/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -std=gnu11 -o CMakeFiles\\minicalc.dir\\main.c.obj -c C:\\Users\\Particular\\Desktop\\MiniCalc\\main.c",
+  "file": "C:/Users/Particular/Desktop/MiniCalc/main.c"
 },
 {
-  "directory": "C:/Users/Particular/Downloads/minicalc-estagio1/build",
-  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe   -g -std=gnu11 -o CMakeFiles\\minicalc.dir\\arq.c.obj -c C:\\Users\\Particular\\Downloads\\minicalc-estagio1\\arq.c",
-  "file": "C:/Users/Particular/Downloads/minicalc-estagio1/arq.c"
+  "directory": "C:/Users/Particular/Desktop/MiniCalc/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -std=gnu11 -o CMakeFiles\\minicalc.dir\\arq.c.obj -c C:\\Users\\Particular\\Desktop\\MiniCalc\\arq.c",
+  "file": "C:/Users/Particular/Desktop/MiniCalc/arq.c"
 },
 {
-  "directory": "C:/Users/Particular/Downloads/minicalc-estagio1/build",
-  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe   -g -std=gnu11 -o CMakeFiles\\minicalc.dir\\lexer.c.obj -c C:\\Users\\Particular\\Downloads\\minicalc-estagio1\\lexer.c",
-  "file": "C:/Users/Particular/Downloads/minicalc-estagio1/lexer.c"
+  "directory": "C:/Users/Particular/Desktop/MiniCalc/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -std=gnu11 -o CMakeFiles\\minicalc.dir\\lexer.c.obj -c C:\\Users\\Particular\\Desktop\\MiniCalc\\lexer.c",
+  "file": "C:/Users/Particular/Desktop/MiniCalc/lexer.c"
 },
 {
-  "directory": "C:/Users/Particular/Downloads/minicalc-estagio1/build",
-  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe   -g -std=gnu11 -o CMakeFiles\\minicalc.dir\\parser.c.obj -c C:\\Users\\Particular\\Downloads\\minicalc-estagio1\\parser.c",
-  "file": "C:/Users/Particular/Downloads/minicalc-estagio1/parser.c"
+  "directory": "C:/Users/Particular/Desktop/MiniCalc/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -std=gnu11 -o CMakeFiles\\minicalc.dir\\parser.c.obj -c C:\\Users\\Particular\\Desktop\\MiniCalc\\parser.c",
+  "file": "C:/Users/Particular/Desktop/MiniCalc/parser.c"
 },
 {
-  "directory": "C:/Users/Particular/Downloads/minicalc-estagio1/build",
-  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe   -g -std=gnu11 -o CMakeFiles\\lexertest.dir\\lexertest.c.obj -c C:\\Users\\Particular\\Downloads\\minicalc-estagio1\\lexertest.c",
-  "file": "C:/Users/Particular/Downloads/minicalc-estagio1/lexertest.c"
+  "directory": "C:/Users/Particular/Desktop/MiniCalc/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -std=gnu11 -o CMakeFiles\\minicalc.dir\\var.c.obj -c C:\\Users\\Particular\\Desktop\\MiniCalc\\var.c",
+  "file": "C:/Users/Particular/Desktop/MiniCalc/var.c"
 },
 {
-  "directory": "C:/Users/Particular/Downloads/minicalc-estagio1/build",
-  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe   -g -std=gnu11 -o CMakeFiles\\lexertest.dir\\arq.c.obj -c C:\\Users\\Particular\\Downloads\\minicalc-estagio1\\arq.c",
-  "file": "C:/Users/Particular/Downloads/minicalc-estagio1/arq.c"
+  "directory": "C:/Users/Particular/Desktop/MiniCalc/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -std=gnu11 -o CMakeFiles\\lexertest.dir\\lexertest.c.obj -c C:\\Users\\Particular\\Desktop\\MiniCalc\\lexertest.c",
+  "file": "C:/Users/Particular/Desktop/MiniCalc/lexertest.c"
 },
 {
-  "directory": "C:/Users/Particular/Downloads/minicalc-estagio1/build",
-  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe   -g -std=gnu11 -o CMakeFiles\\lexertest.dir\\lexer.c.obj -c C:\\Users\\Particular\\Downloads\\minicalc-estagio1\\lexer.c",
-  "file": "C:/Users/Particular/Downloads/minicalc-estagio1/lexer.c"
+  "directory": "C:/Users/Particular/Desktop/MiniCalc/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -std=gnu11 -o CMakeFiles\\lexertest.dir\\arq.c.obj -c C:\\Users\\Particular\\Desktop\\MiniCalc\\arq.c",
+  "file": "C:/Users/Particular/Desktop/MiniCalc/arq.c"
+},
+{
+  "directory": "C:/Users/Particular/Desktop/MiniCalc/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -std=gnu11 -o CMakeFiles\\lexertest.dir\\lexer.c.obj -c C:\\Users\\Particular\\Desktop\\MiniCalc\\lexer.c",
+  "file": "C:/Users/Particular/Desktop/MiniCalc/lexer.c"
 }
 ]

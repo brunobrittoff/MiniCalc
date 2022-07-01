@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Particular/Downloads/minicalc-estagio1/arq.c" "CMakeFiles/lexertest.dir/arq.c.obj" "gcc" "CMakeFiles/lexertest.dir/arq.c.obj.d"
-  "C:/Users/Particular/Downloads/minicalc-estagio1/lexer.c" "CMakeFiles/lexertest.dir/lexer.c.obj" "gcc" "CMakeFiles/lexertest.dir/lexer.c.obj.d"
-  "C:/Users/Particular/Downloads/minicalc-estagio1/lexertest.c" "CMakeFiles/lexertest.dir/lexertest.c.obj" "gcc" "CMakeFiles/lexertest.dir/lexertest.c.obj.d"
+  "C:/Users/Particular/Desktop/MiniCalc/arq.c" "CMakeFiles/lexertest.dir/arq.c.obj" "gcc" "CMakeFiles/lexertest.dir/arq.c.obj.d"
+  "C:/Users/Particular/Desktop/MiniCalc/lexer.c" "CMakeFiles/lexertest.dir/lexer.c.obj" "gcc" "CMakeFiles/lexertest.dir/lexer.c.obj.d"
+  "C:/Users/Particular/Desktop/MiniCalc/lexertest.c" "CMakeFiles/lexertest.dir/lexertest.c.obj" "gcc" "CMakeFiles/lexertest.dir/lexertest.c.obj.d"
   )
 
 # Targets to which this target links.

@@ -52,10 +52,10 @@ RM = C:\Users\Particular\Downloads\cmake-3.21.3-windows-x86_64\bin\cmake.exe -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Particular\Downloads\minicalc-estagio1
+CMAKE_SOURCE_DIR = C:\Users\Particular\Desktop\MiniCalc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Particular\Downloads\minicalc-estagio1\build
+CMAKE_BINARY_DIR = C:\Users\Particular\Desktop\MiniCalc\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/minicalc.dir/depend.make
@@ -71,65 +71,80 @@ include CMakeFiles/minicalc.dir/flags.make
 CMakeFiles/minicalc.dir/main.c.obj: CMakeFiles/minicalc.dir/flags.make
 CMakeFiles/minicalc.dir/main.c.obj: ../main.c
 CMakeFiles/minicalc.dir/main.c.obj: CMakeFiles/minicalc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Particular\Downloads\minicalc-estagio1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/minicalc.dir/main.c.obj"
-	C:\MinGW\bin\mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minicalc.dir/main.c.obj -MF CMakeFiles\minicalc.dir\main.c.obj.d -o CMakeFiles\minicalc.dir\main.c.obj -c C:\Users\Particular\Downloads\minicalc-estagio1\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Particular\Desktop\MiniCalc\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/minicalc.dir/main.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minicalc.dir/main.c.obj -MF CMakeFiles\minicalc.dir\main.c.obj.d -o CMakeFiles\minicalc.dir\main.c.obj -c C:\Users\Particular\Desktop\MiniCalc\main.c
 
 CMakeFiles/minicalc.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minicalc.dir/main.c.i"
-	C:\MinGW\bin\mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Particular\Downloads\minicalc-estagio1\main.c > CMakeFiles\minicalc.dir\main.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Particular\Desktop\MiniCalc\main.c > CMakeFiles\minicalc.dir\main.c.i
 
 CMakeFiles/minicalc.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minicalc.dir/main.c.s"
-	C:\MinGW\bin\mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Particular\Downloads\minicalc-estagio1\main.c -o CMakeFiles\minicalc.dir\main.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Particular\Desktop\MiniCalc\main.c -o CMakeFiles\minicalc.dir\main.c.s
 
 CMakeFiles/minicalc.dir/arq.c.obj: CMakeFiles/minicalc.dir/flags.make
 CMakeFiles/minicalc.dir/arq.c.obj: ../arq.c
 CMakeFiles/minicalc.dir/arq.c.obj: CMakeFiles/minicalc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Particular\Downloads\minicalc-estagio1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/minicalc.dir/arq.c.obj"
-	C:\MinGW\bin\mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minicalc.dir/arq.c.obj -MF CMakeFiles\minicalc.dir\arq.c.obj.d -o CMakeFiles\minicalc.dir\arq.c.obj -c C:\Users\Particular\Downloads\minicalc-estagio1\arq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Particular\Desktop\MiniCalc\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/minicalc.dir/arq.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minicalc.dir/arq.c.obj -MF CMakeFiles\minicalc.dir\arq.c.obj.d -o CMakeFiles\minicalc.dir\arq.c.obj -c C:\Users\Particular\Desktop\MiniCalc\arq.c
 
 CMakeFiles/minicalc.dir/arq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minicalc.dir/arq.c.i"
-	C:\MinGW\bin\mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Particular\Downloads\minicalc-estagio1\arq.c > CMakeFiles\minicalc.dir\arq.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Particular\Desktop\MiniCalc\arq.c > CMakeFiles\minicalc.dir\arq.c.i
 
 CMakeFiles/minicalc.dir/arq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minicalc.dir/arq.c.s"
-	C:\MinGW\bin\mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Particular\Downloads\minicalc-estagio1\arq.c -o CMakeFiles\minicalc.dir\arq.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Particular\Desktop\MiniCalc\arq.c -o CMakeFiles\minicalc.dir\arq.c.s
 
 CMakeFiles/minicalc.dir/lexer.c.obj: CMakeFiles/minicalc.dir/flags.make
 CMakeFiles/minicalc.dir/lexer.c.obj: ../lexer.c
 CMakeFiles/minicalc.dir/lexer.c.obj: CMakeFiles/minicalc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Particular\Downloads\minicalc-estagio1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/minicalc.dir/lexer.c.obj"
-	C:\MinGW\bin\mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minicalc.dir/lexer.c.obj -MF CMakeFiles\minicalc.dir\lexer.c.obj.d -o CMakeFiles\minicalc.dir\lexer.c.obj -c C:\Users\Particular\Downloads\minicalc-estagio1\lexer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Particular\Desktop\MiniCalc\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/minicalc.dir/lexer.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minicalc.dir/lexer.c.obj -MF CMakeFiles\minicalc.dir\lexer.c.obj.d -o CMakeFiles\minicalc.dir\lexer.c.obj -c C:\Users\Particular\Desktop\MiniCalc\lexer.c
 
 CMakeFiles/minicalc.dir/lexer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minicalc.dir/lexer.c.i"
-	C:\MinGW\bin\mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Particular\Downloads\minicalc-estagio1\lexer.c > CMakeFiles\minicalc.dir\lexer.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Particular\Desktop\MiniCalc\lexer.c > CMakeFiles\minicalc.dir\lexer.c.i
 
 CMakeFiles/minicalc.dir/lexer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minicalc.dir/lexer.c.s"
-	C:\MinGW\bin\mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Particular\Downloads\minicalc-estagio1\lexer.c -o CMakeFiles\minicalc.dir\lexer.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Particular\Desktop\MiniCalc\lexer.c -o CMakeFiles\minicalc.dir\lexer.c.s
 
 CMakeFiles/minicalc.dir/parser.c.obj: CMakeFiles/minicalc.dir/flags.make
 CMakeFiles/minicalc.dir/parser.c.obj: ../parser.c
 CMakeFiles/minicalc.dir/parser.c.obj: CMakeFiles/minicalc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Particular\Downloads\minicalc-estagio1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/minicalc.dir/parser.c.obj"
-	C:\MinGW\bin\mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minicalc.dir/parser.c.obj -MF CMakeFiles\minicalc.dir\parser.c.obj.d -o CMakeFiles\minicalc.dir\parser.c.obj -c C:\Users\Particular\Downloads\minicalc-estagio1\parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Particular\Desktop\MiniCalc\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/minicalc.dir/parser.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minicalc.dir/parser.c.obj -MF CMakeFiles\minicalc.dir\parser.c.obj.d -o CMakeFiles\minicalc.dir\parser.c.obj -c C:\Users\Particular\Desktop\MiniCalc\parser.c
 
 CMakeFiles/minicalc.dir/parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minicalc.dir/parser.c.i"
-	C:\MinGW\bin\mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Particular\Downloads\minicalc-estagio1\parser.c > CMakeFiles\minicalc.dir\parser.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Particular\Desktop\MiniCalc\parser.c > CMakeFiles\minicalc.dir\parser.c.i
 
 CMakeFiles/minicalc.dir/parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minicalc.dir/parser.c.s"
-	C:\MinGW\bin\mingw32-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Particular\Downloads\minicalc-estagio1\parser.c -o CMakeFiles\minicalc.dir\parser.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Particular\Desktop\MiniCalc\parser.c -o CMakeFiles\minicalc.dir\parser.c.s
+
+CMakeFiles/minicalc.dir/var.c.obj: CMakeFiles/minicalc.dir/flags.make
+CMakeFiles/minicalc.dir/var.c.obj: ../var.c
+CMakeFiles/minicalc.dir/var.c.obj: CMakeFiles/minicalc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Particular\Desktop\MiniCalc\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/minicalc.dir/var.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minicalc.dir/var.c.obj -MF CMakeFiles\minicalc.dir\var.c.obj.d -o CMakeFiles\minicalc.dir\var.c.obj -c C:\Users\Particular\Desktop\MiniCalc\var.c
+
+CMakeFiles/minicalc.dir/var.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minicalc.dir/var.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Particular\Desktop\MiniCalc\var.c > CMakeFiles\minicalc.dir\var.c.i
+
+CMakeFiles/minicalc.dir/var.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minicalc.dir/var.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Particular\Desktop\MiniCalc\var.c -o CMakeFiles\minicalc.dir\var.c.s
 
 # Object files for target minicalc
 minicalc_OBJECTS = \
 "CMakeFiles/minicalc.dir/main.c.obj" \
 "CMakeFiles/minicalc.dir/arq.c.obj" \
 "CMakeFiles/minicalc.dir/lexer.c.obj" \
-"CMakeFiles/minicalc.dir/parser.c.obj"
+"CMakeFiles/minicalc.dir/parser.c.obj" \
+"CMakeFiles/minicalc.dir/var.c.obj"
 
 # External object files for target minicalc
 minicalc_EXTERNAL_OBJECTS =
@@ -138,11 +153,12 @@ minicalc.exe: CMakeFiles/minicalc.dir/main.c.obj
 minicalc.exe: CMakeFiles/minicalc.dir/arq.c.obj
 minicalc.exe: CMakeFiles/minicalc.dir/lexer.c.obj
 minicalc.exe: CMakeFiles/minicalc.dir/parser.c.obj
+minicalc.exe: CMakeFiles/minicalc.dir/var.c.obj
 minicalc.exe: CMakeFiles/minicalc.dir/build.make
 minicalc.exe: CMakeFiles/minicalc.dir/linklibs.rsp
 minicalc.exe: CMakeFiles/minicalc.dir/objects1.rsp
 minicalc.exe: CMakeFiles/minicalc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Particular\Downloads\minicalc-estagio1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable minicalc.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Particular\Desktop\MiniCalc\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable minicalc.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\minicalc.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +170,6 @@ CMakeFiles/minicalc.dir/clean:
 .PHONY : CMakeFiles/minicalc.dir/clean
 
 CMakeFiles/minicalc.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Particular\Downloads\minicalc-estagio1 C:\Users\Particular\Downloads\minicalc-estagio1 C:\Users\Particular\Downloads\minicalc-estagio1\build C:\Users\Particular\Downloads\minicalc-estagio1\build C:\Users\Particular\Downloads\minicalc-estagio1\build\CMakeFiles\minicalc.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Particular\Desktop\MiniCalc C:\Users\Particular\Desktop\MiniCalc C:\Users\Particular\Desktop\MiniCalc\build C:\Users\Particular\Desktop\MiniCalc\build C:\Users\Particular\Desktop\MiniCalc\build\CMakeFiles\minicalc.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/minicalc.dir/depend
 

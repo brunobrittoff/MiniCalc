@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/minicalc.dir/main.c.obj.d"
   "CMakeFiles/minicalc.dir/parser.c.obj"
   "CMakeFiles/minicalc.dir/parser.c.obj.d"
+  "CMakeFiles/minicalc.dir/var.c.obj"
+  "CMakeFiles/minicalc.dir/var.c.obj.d"
   "libminicalc.dll.a"
   "minicalc.exe"
   "minicalc.exe.manifest"

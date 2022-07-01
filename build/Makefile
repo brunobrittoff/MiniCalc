@@ -56,10 +56,10 @@ RM = C:\Users\Particular\Downloads\cmake-3.21.3-windows-x86_64\bin\cmake.exe -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Particular\Downloads\minicalc-estagio1
+CMAKE_SOURCE_DIR = C:\Users\Particular\Desktop\MiniCalc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Particular\Downloads\minicalc-estagio1\build
+CMAKE_BINARY_DIR = C:\Users\Particular\Desktop\MiniCalc\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Particular\Downloads\minicalc-estagio1\build\CMakeFiles C:\Users\Particular\Downloads\minicalc-estagio1\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Particular\Desktop\MiniCalc\build\CMakeFiles C:\Users\Particular\Desktop\MiniCalc\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Particular\Downloads\minicalc-estagio1\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Particular\Desktop\MiniCalc\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -267,6 +267,30 @@ parser.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\minicalc.dir\build.make CMakeFiles/minicalc.dir/parser.c.s
 .PHONY : parser.c.s
 
+var.obj: var.c.obj
+.PHONY : var.obj
+
+# target to build an object file
+var.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\minicalc.dir\build.make CMakeFiles/minicalc.dir/var.c.obj
+.PHONY : var.c.obj
+
+var.i: var.c.i
+.PHONY : var.i
+
+# target to preprocess a source file
+var.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\minicalc.dir\build.make CMakeFiles/minicalc.dir/var.c.i
+.PHONY : var.c.i
+
+var.s: var.c.s
+.PHONY : var.s
+
+# target to generate assembly for a file
+var.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\minicalc.dir\build.make CMakeFiles/minicalc.dir/var.c.s
+.PHONY : var.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -292,6 +316,9 @@ help:
 	@echo ... parser.obj
 	@echo ... parser.i
 	@echo ... parser.s
+	@echo ... var.obj
+	@echo ... var.i
+	@echo ... var.s
 .PHONY : help
 
 
